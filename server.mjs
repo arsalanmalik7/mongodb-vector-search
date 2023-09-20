@@ -23,7 +23,7 @@ app.use('/api', postRouter);
 
 
 
-const PORT = process.env.Port || 3000
+const PORT = process.env.PORT || 3000
 app.listen(PORT, () => {
     console.log(`posting app listening on ${PORT} `)
 })
